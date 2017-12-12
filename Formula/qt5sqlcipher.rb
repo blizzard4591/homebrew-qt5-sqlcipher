@@ -9,7 +9,7 @@ class Qt5sqlcipher < Formula
   depends_on :macos => :mavericks
   depends_on "cmake"
   depends_on "qt5"
-  depends_on "blizzard4591/homebrew-qt5-sqlcipher/sqlcipherwithcolumn"
+  depends_on "blizzard4591/homebrew-qt5-sqlcipher/sqlcipher"
 
   def install
     args = %w[
