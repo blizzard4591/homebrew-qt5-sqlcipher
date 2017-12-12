@@ -1,4 +1,4 @@
-class Qt5Sqlcipher < Formula
+class Qt5sqlcipher < Formula
   desc "A Qt5 SQL driver plugin for SQLCipher."
   homepage "https://github.com/blizzard4591/qt5-sqlcipher"
   url "https://github.com/blizzard4591/qt5-sqlcipher/archive/1.0.0.zip"
