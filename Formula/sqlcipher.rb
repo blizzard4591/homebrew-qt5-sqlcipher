@@ -3,7 +3,7 @@ class Sqlcipherwithcolumn < Formula
   homepage "http://sqlcipher.net"
   url "https://github.com/sqlcipher/sqlcipher/archive/v3.4.1.tar.gz"
   sha256 "4172cc6e5a79d36e178d36bd5cc467a938e08368952659bcd95eccbaf0fa4ad4"
-  revision 2
+  revision 3
 
   head "https://github.com/sqlcipher/sqlcipher.git"
 
