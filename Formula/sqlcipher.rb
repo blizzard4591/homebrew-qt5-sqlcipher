@@ -1,4 +1,4 @@
-class Sqlcipherwithcolumn < Formula
+class Sqlcipher < Formula
   desc "SQLite extension providing 256-bit AES encryption"
   homepage "http://sqlcipher.net"
   url "https://github.com/sqlcipher/sqlcipher/archive/v3.4.1.tar.gz"
