@@ -1,9 +1,9 @@
 class Qt5sqlcipher < Formula
   desc "A Qt5 SQL driver plugin for SQLCipher."
   homepage "https://github.com/blizzard4591/qt5-sqlcipher"
-  url "https://github.com/blizzard4591/qt5-sqlcipher/archive/1.0.0.zip"
-  version "1.0.0"
-  sha256 "6788abb6d49742ea49ec387e0177b2101dce16f4a42bf2292ac249e4c2459297"
+  url "https://github.com/blizzard4591/qt5-sqlcipher/archive/1.0.1.zip"
+  version "1.0.1"
+  sha256 "a47933f16b55ecdced7ed2215642aa38febedcc24a448aafefd5fdfd0ee49bd7"
   head "https://github.com/blizzard4591/qt5-sqlcipher.git", :using => :git, :shallow => false
 
   depends_on :macos => :mavericks
@@ -14,6 +14,7 @@ class Qt5sqlcipher < Formula
   def install
     args = %w[
       -DCMAKE_BUILD_TYPE=RELEASE
+      -DQSQLCIPHER_INSTALL_INTO_QT_PLUGIN_DIRECTORY=On
     ]
 
     mktemp do
