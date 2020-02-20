@@ -7,5 +7,5 @@ This tap provides the formula to install qt5-sqlcipher via homebrew. All you nee
 
 ```sh
 brew tap blizzard4591/homebrew-qt5-sqlcipher
-brew install qt5sqlcipher
+brew install qt5-sqlcipher
 ``` 
