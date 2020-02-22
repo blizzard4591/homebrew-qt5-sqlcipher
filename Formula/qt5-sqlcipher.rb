@@ -7,6 +7,7 @@ class Qt5Sqlcipher < Formula
 
   depends_on "cmake"
   depends_on :macos => :mavericks
+  depends_on "pkg-config"
   depends_on "qt"
   depends_on "sqlcipher"
 
