@@ -1,8 +1,8 @@
 class Qt5Sqlcipher < Formula
   desc "Qt5 SQL driver plugin for SQLCipher"
   homepage "https://github.com/blizzard4591/qt5-sqlcipher"
-  url "https://github.com/blizzard4591/qt5-sqlcipher/archive/v1.0.10.tar.gz"
-  sha256 "e60206becbe37dc9edcb9bfdc98d794fe612de68818cb81cef95e95193cbd089"
+  url "https://github.com/blizzard4591/qt5-sqlcipher/archive/v1.0.11.tar.gz"
+  sha256 "3d44217aebe4dd054c13c0619a016457aba2a9dadeffef4dc50c639b276d8177"
   head "https://github.com/blizzard4591/qt5-sqlcipher.git", :using => :git, :shallow => false
 
   depends_on "cmake" => [:build]
